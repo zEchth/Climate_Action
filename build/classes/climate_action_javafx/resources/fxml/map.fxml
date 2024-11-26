@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="climate_action_javafx.java.com.climateaction.controllers.MapController">
+    <Button fx:id="showMapButton" text="Show Map" onAction="#handleShowMapButtonAction" AnchorPane.centerX="250" AnchorPane.centerY="200" />
+</AnchorPane>

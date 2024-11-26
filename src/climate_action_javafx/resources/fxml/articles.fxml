@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="climate_action_javafx.java.com.climateaction.controllers.ArticleController">
+    <ListView fx:id="articleList" onMouseClicked="#handleArticleSelection" AnchorPane.leftAnchor="10" AnchorPane.topAnchor="10" AnchorPane.bottomAnchor="10" />
+    <TextArea fx:id="articleContent" AnchorPane.leftAnchor="150" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.bottomAnchor="10" />
+</AnchorPane>

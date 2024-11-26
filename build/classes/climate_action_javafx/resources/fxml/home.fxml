@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="climate_action_javafx.java.com.climateaction.controllers.HomeController">
+    <Button fx:id="articlesButton" text="Articles" onAction="#handleArticlesButtonAction" AnchorPane.leftAnchor="10" AnchorPane.topAnchor="10" />
+    <Button fx:id="challengesButton" text="Challenges" onAction="#handleChallengesButtonAction" AnchorPane.leftAnchor="100" AnchorPane.topAnchor="10" />
+</AnchorPane>
